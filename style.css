@@ -1,1 +1,37 @@
-
+.logo {
+    font-size: 30pt;
+    font-weight: bold;
+    text-align: center;
+}
+.logoimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.logoimg > img {
+    width: 100%;
+}
+.descriptions {
+    font-size: 20pt;
+    text-align: center;
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+    background-color: lavender;
+}  
+.services > div {
+    background-color: #f1f1f1;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+.pictures{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    
+}
